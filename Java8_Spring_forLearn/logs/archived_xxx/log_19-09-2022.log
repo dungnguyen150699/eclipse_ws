@@ -1,0 +1,14 @@
+19-09-2022 11:06:11.134 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 11.0.15.1 on nguyentiendung with PID 15160 (C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn\target\classes started by nguyentiendung in C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn)
+19-09-2022 11:06:11.152 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-09-2022 11:06:11.152 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-09-2022 11:06:14.259 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 3.809 seconds (JVM running for 4.399)
+19-09-2022 11:06:14.264 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-09-2022 11:06:14.265 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-09-2022 11:06:14.266 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-09-2022 11:17:05.450 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 11.0.15.1 on nguyentiendung with PID 15160 (C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn\target\classes started by nguyentiendung in C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn)
+19-09-2022 11:17:05.451 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-09-2022 11:17:05.451 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-09-2022 11:17:06.132 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 0.75 seconds (JVM running for 656.281)
+19-09-2022 11:17:06.134 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-09-2022 11:17:06.134 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-09-2022 11:17:06.134 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!

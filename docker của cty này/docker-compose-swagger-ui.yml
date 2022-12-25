@@ -1,0 +1,8 @@
+version: "3"
+services:
+  swagger-ui:
+    image: swaggerapi/swagger-ui
+    ports:
+      - "6636:8080"
+    environment:
+      URL: http://192.168.1.23:8301/survey/v2/api-docs

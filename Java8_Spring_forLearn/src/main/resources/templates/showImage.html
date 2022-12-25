@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	</head>
+	<body>
+		<form th:action="@{|/spring/base64/upload|}"  enctype="multipart/form-data" method="post">
+			<label for="usr2">Image:</label> 
+			<input type="file" id="usr2" name="img" accept="image/*" required="required"/>
+			<br/>
+			<label>Infor</label>
+			<br/>
+			<img th:src="@{'data:image/jpeg;base64,'+${product?.getImgBase64()}}" style="width:100px;height:100px; border:black solid 1px;"/>
+			<br/>
+			<p th:text="|${product?.getName()} ${product?.getTail()}|"></p>
+			<input type="submit" value="Submit">
+		</form>
+			
+	</body>
+</html>

@@ -1,0 +1,3 @@
+name=DungNguyen
+birth=15/06/1999
+age=23-24

@@ -1,0 +1,20 @@
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/insertForm
+	 Method Name: insertForm
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/addProduct
+	 Method Name: addProduct
+	 Object Agurment: 
+		{};		boring !!!;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6742c285;		1245.0;		0;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};

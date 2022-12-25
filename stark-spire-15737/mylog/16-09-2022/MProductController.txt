@@ -1,0 +1,5 @@
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};

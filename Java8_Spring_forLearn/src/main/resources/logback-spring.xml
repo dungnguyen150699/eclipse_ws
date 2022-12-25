@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+ <!-- 
+ 	%d : thời gian ghi message, có thể chấp nhận tất các các định dạng SimperDateFormat cho phép
+	%thread : tên thread ghi message
+	$-5level : level ghi log (các mức level có thể là trace, debug, info, warn, error)
+	%logger{36} : tên package class nơi log được ghi ra. Số 36 có ý nghĩa là lược ngắn tên package class trong trường hợp tên quá dài.
+	%M : tên của method nơi log được ghi ra
+	%msg: message chính
+	%n : ngắt dòng
+	%magenta() : đặt màu của message đầu ra trong dấu (), có thể chọn các màu khác
+	highlight() : đặt màu của message đầu ra trong dấu (), tùy thuộc vào level log (ví dụ ERROR là màu đỏ)
+	%C laf class
+  -->
+    <property name="LOGS" value="./logs" />
+    <timestamp key="BY_DATE" datePattern="yyyy-MM-dd" />
+
+    <appender name="Console"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="RollingFile"  class="ch.qos.logback.core.rolling.RollingFileAppender">        
+		<file>${LOGS}/spring-boot-logger-${BY_DATE}.log</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/spring-boot-logger_%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <maxHistory>10</maxHistory>
+    		<totalSizeCap>100MB</totalSizeCap>
+            <!-- 
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            -->
+        </rollingPolicy>
+        
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        </encoder>
+        
+        <!-- 
+         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOGS}/archived/FILENAMELOGS-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+        </rollingPolicy>
+         -->
+    </appender>
+
+    <appender name="SevereRollingFile"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+              
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>info</level>
+        </filter>
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        </encoder>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/severe-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+    
+    <appender name="SAVE-TO-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			 <!--  <file>${LOGS}/log.log</file> Nhớ bỏ thằng này đi thì thằng ở dưới mới chạy  --> 
+		  
+		  <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+		    <Pattern>
+		      %d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n
+		    </Pattern>
+		  </encoder>
+		
+		  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+		    <fileNamePattern>
+		      ${LOGS}/archived_xxx/log_%d{dd-MM-yyyy}.log
+		    </fileNamePattern>
+		    <maxHistory>10</maxHistory>
+		    <totalSizeCap>100MB</totalSizeCap>
+		  </rollingPolicy>
+	
+	</appender>
+    
+    
+<include resource="org/springframework/boot/logging/logback/base.xml"/>   
+<springProfile name="dev">
+    <!-- LOG everything at INFO level -->
+	<root level="info">
+        <appender-ref ref="Console" />
+    </root>
+    
+    <!-- LOG "com.java8.springboot" at Error level additivity = true show in console-->
+    <logger name="com.java8.springboot" level="error" additivity="true">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="SAVE-TO-FILE" />
+        <!-- <appender-ref ref="SevereRollingFile" />
+         -->
+    </logger>
+    
+	<!-- additivity = true show in console -->
+    <logger name="com.java8.springboot" level="infor" additivity="true">
+        <appender-ref ref="SevereRollingFile" />
+    </logger>
+
+    </springProfile>
+</configuration>
+

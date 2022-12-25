@@ -1,0 +1,31 @@
+2022-03-29 15:28:48.699  INFO 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : Starting JwtDemoApplication using Java 11.0.12 on DESKTOP-39HRTMI with PID 10028 (C:\Users\DELL\eclipse-workspace\jwt_demo\target\classes started by DELL in C:\Users\DELL\eclipse-workspace\jwt_demo)
+2022-03-29 15:28:48.702  INFO 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:28:48.764  INFO 10028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 15:28:48.765  INFO 10028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 15:28:49.505  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 15:28:49.580  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-03-29 15:28:50.415  INFO 10028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-29 15:28:50.424  INFO 10028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:28:50.425  INFO 10028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-29 15:28:50.499  INFO 10028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:28:50.500  INFO 10028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2022-03-29 15:28:50.573  WARN 10028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 15:28:50.669  INFO 10028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 15:28:50.726  INFO 10028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-29 15:28:50.895  INFO 10028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 15:28:51.007  INFO 10028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-29 15:28:51.240  INFO 10028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-29 15:28:51.256  INFO 10028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-03-29 15:28:51.861  INFO 10028 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 15:28:51.869  INFO 10028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:28:52.610  INFO 10028 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-03-29 15:28:52.818  INFO 10028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-29 15:28:52.864  INFO 10028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 15:28:52.878  INFO 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : Started JwtDemoApplication in 4.578 seconds (JVM running for 5.735)
+2022-03-29 15:28:52.881  INFO 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : This is INFO
+2022-03-29 15:28:52.881  WARN 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : This is WARN
+2022-03-29 15:28:52.881 ERROR 10028 --- [restartedMain] com.example.demo.JwtDemoApplication      : This is ERROR
+2022-03-29 15:50:06.528  INFO 10028 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-29 15:50:06.790  INFO 10028 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:50:06.804  INFO 10028 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-29 15:50:06.825  INFO 10028 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

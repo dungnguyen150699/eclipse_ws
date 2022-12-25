@@ -1,0 +1,5 @@
+Class:MOrderController
+	 Url: /admin/order
+	 Method Name: HandleOrder
+	 Object Agurment: 
+		{};

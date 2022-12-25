@@ -1,0 +1,22 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+			 version="1.0">
+	<persistence-unit name="abc" transaction-type="RESOURCE_LOCAL">
+<!--		<description>EntityManager persistence unit</description>-->
+		<class>com.example.demo.db2.Entity.Product2</class>
+<!--		<exclude-unlisted-classes>true</exclude-unlisted-classes>-->
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="javax.persistence.jdbc.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url"
+					  value="jdbc:mysql://localhost:3306/jpaemvshibernate" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="b17dccn160" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+            <property name="hibernate.globally_quoted_identifiers" value="true"/>
+		</properties>
+	</persistence-unit>
+</persistence>

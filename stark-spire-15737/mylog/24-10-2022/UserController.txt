@@ -1,0 +1,155 @@
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@8e41dc1;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@8e41dc1;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /register
+	 Method Name: register
+	 Object Agurment: 
+		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /doRegister
+	 Method Name: doRegister
+	 Object Agurment: 
+		{user=com.example.demo.entity.User@66f3b034, org.springframework.validation.BindingResult.user=org.springframework.validation.BeanPropertyBindingResult: 0 errors};		com.example.demo.entity.User@66f3b034;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /dologin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@7392f916;		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /dologin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@7392f916;		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /dologin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@7392f916;		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@7392f916;
+Class:UserController
+	 Url: /dologin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@7392f916;		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@6bd4aaf4;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@6bd4aaf4;
+Class:UserController
+	 Url: /doLogin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@4ac7572a;		{};

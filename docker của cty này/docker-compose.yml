@@ -1,0 +1,83 @@
+version: "3"
+services:
+  smart-redis:
+    image: redis:6.2.6
+    ports:
+      - 6479:6379
+  smart-micro-auth:
+    image: smart-micro-auth:1.0.0
+    ports:
+      - 9101:9101
+    depends_on:
+      - smart-micro-eureka
+      - smart-redis
+    environment:
+      SPRING_EUREKA: http://smart-micro-eureka:9761/eureka/
+      REDIS_HOST: 192.168.1.23
+  smart-micro-eureka:
+    image: smart-micro-eureka:1.0.0
+    ports:
+      - 9761:9761
+  smart-micro-gateway:
+    image: smart-micro-gateway:1.0.0
+    depends_on:
+      - smart-micro-eureka
+      - smart-micro-auth
+    ports:
+      - 9301:9301
+    environment:
+      SPRING_EUREKA: http://smart-micro-eureka:9761/eureka/
+      SECURITY_OAUTH2_RESOURCESERVER_JWK_JWKSETURI: http://smart-micro-auth:9101/.well-known/jwks.json
+      SECURITY_OAUTH2_CLIENT_REGISTRATION_CUSTOM_REDIRECTURITEMPLATE: http://smart-micro-auth:9101/login/oauth2/code/custom
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_AUTHORIZATIONURI: http://smart-micro-auth:9101/oauth/authorize
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_TOKENURI: http://smart-micro-auth:9101/oauth/token
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_USERINFOURI: http://smart-micro-auth:9101/users/extra
+  smart-manage:
+    image: smart-manage:1.0.0
+    volumes:
+      - /home/smartmotor/docker/smart_logs:/home
+    depends_on:
+      - smart-micro-eureka
+      - smart-micro-auth
+    ports:
+      - 9085:9085
+    environment:
+      SPRING_EUREKA: http://smart-micro-eureka:9761/eureka/
+      SECURITY_OAUTH2_RESOURCESERVER_JWK_JWKSETURI: http://smart-micro-auth:9101/.well-known/jwks.json
+      SECURITY_OAUTH2_CLIENT_REGISTRATION_CUSTOM_REDIRECTURITEMPLATE: http://smart-micro-auth:9101/login/oauth2/code/custom
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_AUTHORIZATIONURI: http://smart-micro-auth:9101/oauth/authorize
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_TOKENURI: http://smart-micro-auth:9101/oauth/token
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_USERINFOURI: http://smart-micro-auth:9101/users/extra
+  landing-page:
+    image: landing-page-1.0.0:latest
+    volumes:
+      - /home/smartmotor/docker/smart_logs:/home
+    depends_on:
+      - smart-micro-eureka
+      - smart-micro-auth
+    ports:
+      - 9084:9084
+    environment:
+      SPRING_EUREKA: http://smart-micro-eureka:9761/eureka/
+      SECURITY_OAUTH2_RESOURCESERVER_JWK_JWKSETURI: http://smart-micro-auth:9101/.well-known/jwks.json
+      SECURITY_OAUTH2_CLIENT_REGISTRATION_CUSTOM_REDIRECTURITEMPLATE: http://smart-micro-auth:9101/login/oauth2/code/custom
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_AUTHORIZATIONURI: http://smart-micro-auth:9101/oauth/authorize
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_TOKENURI: http://smart-micro-auth:9101/oauth/token
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_USERINFOURI: http://smart-micro-auth:9101/users/extra
+  smart-user:
+    image: smart-user:1.0.0
+    volumes:
+      - /home/smartmotor/docker/smart_logs:/home
+    depends_on:
+      - smart-micro-eureka
+      - smart-micro-auth
+    ports:
+      - 9011:9011
+    environment:
+      SPRING_EUREKA: http://192.168.1.23:9761/eureka/
+      SECURITY_OAUTH2_RESOURCESERVER_JWK_JWKSETURI: http://smart-micro-auth:9101/.well-known/jwks.json
+      SECURITY_OAUTH2_CLIENT_REGISTRATION_CUSTOM_REDIRECTURITEMPLATE: http://smart-micro-auth:9101/login/oauth2/code/custom
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_AUTHORIZATIONURI: http://smart-micro-auth:9101/oauth/authorize
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_TOKENURI: http://smart-micro-auth:9101/oauth/token
+      SECURITY_OAUTH2_CLIENT_PROVIDER_CUSTOM_USERINFOURI: http://smart-micro-auth:9101/users/extra
+

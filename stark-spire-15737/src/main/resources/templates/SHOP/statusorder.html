@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<!-- Basic -->
+<head th:replace="SHOP/header :: header1" />
+<body>
+	<div th:replace="SHOP/header :: header2" />
+	<div class="container">
+		<br/><br/>
+		<br/>
+		<table class="table table-striped" style="text-align:auto;">
+			<thead>
+				<tr>
+					<th>ID Order </th>
+					<th>ID User</th>
+					<th>UserName</th>
+					<th>TotalPrice</th>
+					<th>Date Order</th>
+					<th>Method Ship</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="order : ${listOrder}">
+					<td th:text="${order.getId()}">ID Order</td>
+					<td th:text="${order.getUser().getId()}">ID User</td>
+					<td th:text="${order.getUser().getUsername()}">UserName</td>
+					<td th:text="${order.getTotalPrice()}">Total Price</td>
+					<td th:text="${order.getDateOrder()}">Date Order</td>
+					<td th:text="${order.getShip_method()}">Total Price</td>
+					<td >
+						<th:block th:if="${order.getApproved()} == 0">
+							Status: Ordering &nbsp;
+							<a th:href="@{|/order/reject/${order.getId()}|}"><button type="button" class="btn btn-danger">Reject</button></a>
+						</th:block>
+						<th:block th:if="${order.getApproved()} == 1">
+							Status: Accepted &nbsp;
+						</th:block>
+						<th:block th:if="${order.getApproved()} == -1">
+							Status: Rejected &nbsp;
+						</th:block>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br/><br/><br/>
+    <div th:replace="SHOP/footer :: footer" />
+  </body>
+</html>

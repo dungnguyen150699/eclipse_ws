@@ -1,0 +1,160 @@
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/46
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		46;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/48
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		48;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/44
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		44;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/45
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		45;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/47
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		47;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/delete/49
+	 Method Name: deleteProduct
+	 Object Agurment: 
+		{};		49;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/insertForm
+	 Method Name: insertForm
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/addProduct
+	 Method Name: addProduct
+	 Object Agurment: 
+		{};		java;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5367d17d;		1245.0;		10;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/insertForm
+	 Method Name: insertForm
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/addProduct
+	 Method Name: addProduct
+	 Object Agurment: 
+		{};		dungnguyen;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3e59ca2;		124.0;		0;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/update/51
+	 Method Name: updateForm
+	 Object Agurment: 
+		{};		51;
+Class:MProductController
+	 Url: /admin/product/update
+	 Method Name: updateProduct
+	 Object Agurment: 
+		{};		51;		dungnguyen;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6430501f;		124.0;		0;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/insertForm
+	 Method Name: insertForm
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/addProduct
+	 Method Name: addProduct
+	 Object Agurment: 
+		{};		dungnguyen2;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3579bd42;		124.0;		100;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/insertForm
+	 Method Name: insertForm
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/addProduct
+	 Method Name: addProduct
+	 Object Agurment: 
+		{};		loại1x;		org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@75ac269f;		1245.0;		123;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};
+Class:MProductController
+	 Url: /admin/product/update/53
+	 Method Name: updateForm
+	 Object Agurment: 
+		{};		53;
+Class:MProductController
+	 Url: /admin/product
+	 Method Name: manageProduct
+	 Object Agurment: 
+		{};

@@ -1,0 +1,75 @@
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@4c64ad14;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@4c64ad14;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@4c64ad14;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@4c64ad14;
+Class:UserController
+	 Url: /doLogin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@4c64ad14;		{};
+Class:UserController
+	 Url: /admin/users
+	 Method Name: ManageUser
+	 Object Agurment: 
+		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@6d8412b;
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@6d8412b;
+Class:UserController
+	 Url: /doLogin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@6d8412b;		{};
+Class:UserController
+	 Url: /admin/users
+	 Method Name: ManageUser
+	 Object Agurment: 
+		{};
+Class:UserController
+	 Url: /admin/users
+	 Method Name: ManageUser
+	 Object Agurment: 
+		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@70c92f76;
+Class:UserController
+	 Url: /doLogin
+	 Method Name: doLogin
+	 Object Agurment: 
+		org.apache.catalina.session.StandardSessionFacade@70c92f76;		{};
+Class:UserController
+	 Url: /admin/users
+	 Method Name: ManageUser
+	 Object Agurment: 
+		{};
+Class:UserController
+	 Url: /login
+	 Method Name: loginView
+	 Object Agurment: 
+		{};		org.apache.catalina.session.StandardSessionFacade@26850fe;

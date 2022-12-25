@@ -1,0 +1,5 @@
+Model\Product.class
+Model\User.class
+DAO\dao.class
+DAO\userDAO.class
+Web\userServlet.class

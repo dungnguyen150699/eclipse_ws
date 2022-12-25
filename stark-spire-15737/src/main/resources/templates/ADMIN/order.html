@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="ADMIN/header :: header" />
+<body>
+	<div th:replace="ADMIN/header :: navbar" />
+	<br/>
+	
+	<div class="container">
+		<br/><br/>
+		<div class="dropdown show">
+		  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Sort
+		  </a>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+		    <a class="dropdown-item" th:href="@{/admin/order/orderASC}">Sort ASC</a>
+		    <a class="dropdown-item" th:href="@{/admin/order/orderDESC}">Sort DESC</a>
+		  </div>
+		</div>
+		<br/>
+		<table class="table table-striped" style="text-align:auto;">
+			<thead>
+				<tr>
+					<th>ID Order </th>
+					<th>ID User</th>
+					<th>UserName</th>
+					<th>TotalPrice</th>
+					<th>Date Order</th>
+					<th>Method Ship</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="order : ${listOrder}">
+					<td th:text="${order.getId()}">ID Order</td>
+					<td th:text="${order.getUser().getId()}">ID User</td>
+					<td th:text="${order.getUser().getUsername()}">UserName</td>
+					<td th:text="${order.getTotalPrice()}">Total Price</td>
+					<td th:text="${order.getDateOrder()}">Date Order</td>
+					<td th:text="${order.getShip_method()}">Total Price</td>
+					<td >
+					<th:block th:if="${order.getApproved()} == 0">
+						Status: Ordering &nbsp;
+						<a th:href="@{|/admin/order/accept/${order.getId()}|}"><button type="button" class="btn btn-info">Accept</button></a>
+					</th:block>
+					<th:block th:if="${order.getApproved()} == 1">
+						Status: Accepted &nbsp;
+						<a th:href="@{|/admin/order/reject/${order.getId()}|}"><button type="button" class="btn btn-danger">Reject</button></a>
+					</th:block>
+					<th:block th:if="${order.getApproved()} == -1">
+						Status: Rejected &nbsp;
+					</th:block>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

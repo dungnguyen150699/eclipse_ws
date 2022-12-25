@@ -1,0 +1,1 @@
+docker stack deploy --resolve-image always -c docker-compose.yml smart

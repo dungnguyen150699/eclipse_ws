@@ -1,0 +1,5 @@
+Class:UserController
+	 Url: /doRegister
+	 Method Name: doRegister
+	 Object Agurment: 
+		{user=com.example.demo.entity.User@3782d0bd, org.springframework.validation.BindingResult.user=org.springframework.validation.BeanPropertyBindingResult: 0 errors};		com.example.demo.entity.User@3782d0bd;

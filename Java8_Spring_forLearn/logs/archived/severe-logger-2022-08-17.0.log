@@ -1,0 +1,12 @@
+2022-08-17 15:09:42,342 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Java8SpringForLearnApplication using Java 11.0.15.1 on nguyentiendung with PID 7356 (C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn\target\classes started by nguyentiendung in C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn)
+2022-08-17 15:09:42,345 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-08-17 15:09:45,008 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Java8SpringForLearnApplication in 3.177 seconds (JVM running for 3.674)
+2022-08-17 15:09:45,013 ERROR com.java8.springboot.spring.GETCommandLineRunner [restartedMain] ApplicationStartupRunnerOne run method Started !!
+2022-08-17 15:09:45,014 INFO com.java8.springboot.spring.ApplicationStartupRunnerTwo [restartedMain] ApplicationStartupRunnerTwo run method Started !!
+2022-08-17 15:09:45,014 INFO com.java8.springboot.spring.ApplicationStartupRunnerOne [restartedMain] ApplicationStartupRunnerOne run method Started !!
+2022-08-17 15:10:14,747 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Java8SpringForLearnApplication using Java 11.0.15.1 on nguyentiendung with PID 7356 (C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn\target\classes started by nguyentiendung in C:\Users\nguyentiendung\eclipse-workspace\eclipse_ws\Java8_Spring_forLearn)
+2022-08-17 15:10:14,748 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-08-17 15:10:15,253 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Java8SpringForLearnApplication in 0.571 seconds (JVM running for 33.92)
+2022-08-17 15:10:15,255 ERROR com.java8.springboot.spring.GETCommandLineRunner [restartedMain] ApplicationStartupRunnerOne run method Started !!
+2022-08-17 15:10:15,256 INFO com.java8.springboot.spring.ApplicationStartupRunnerTwo [restartedMain] ApplicationStartupRunnerTwo run method Started !!
+2022-08-17 15:10:15,256 INFO com.java8.springboot.spring.ApplicationStartupRunnerOne [restartedMain] ApplicationStartupRunnerOne run method Started !!

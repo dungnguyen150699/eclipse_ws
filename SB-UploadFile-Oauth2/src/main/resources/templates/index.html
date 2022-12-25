@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>index</title>
+</head>
+<body>
+  <h2>Demo Spring Boot Upload File</h2>
+  <form method="post" th:action="@{/uploadFile}" enctype="multipart/form-data" th:object="${myFile}">
+    File: <input type="file" th:field="*{multipartFile}" /> <br /> <br />
+    Description: <input type="text" th:field="*{description}" /> <br /> <br />mb
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
