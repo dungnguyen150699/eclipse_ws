@@ -8,4 +8,16 @@
          <welcome-file-list>
         	<welcome-file>index.jsp</welcome-file>
     	 </welcome-file-list>
+    	 
+	    	 <!-- Processes application requests -->
+	  <servlet>
+	    <servlet-name>ListUserController</servlet-name>
+	    <servlet-class>Controller.ListUserController</servlet-class>
+	    <load-on-startup>1</load-on-startup>
+	  </servlet>
+	 
+	  <servlet-mapping>
+	    <servlet-name>ListUserController</servlet-name>
+	    <url-pattern>/ListUser</url-pattern>
+	  </servlet-mapping>
 </web-app>

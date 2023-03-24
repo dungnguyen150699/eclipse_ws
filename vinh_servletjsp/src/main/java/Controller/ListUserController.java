@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import DAO.findAllUserDAO;
 import Model.User;
 
-@WebServlet(urlPatterns = {"/ListUser"})
+//@WebServlet(urlPatterns = {"/ListUser"})
 public class ListUserController extends HttpServlet {
 	/**
 	 * 

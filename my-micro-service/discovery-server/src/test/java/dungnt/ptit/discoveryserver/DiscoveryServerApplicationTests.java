@@ -1,13 +1,13 @@
-//package dungnt.ptit.discoveryserver;
-//
-//import org.junit.jupiter.api.Test;
-//import org.springframework.boot.test.context.SpringBootTest;
-//
-//@SpringBootTest
-//class DiscoveryServerApplicationTests {
-//
-//    @Test
-//    void contextLoads() {
-//    }
-//
-//}
+package dungnt.ptit.discoveryserver;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DiscoveryServerApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

@@ -2,7 +2,11 @@ package com.java8.springboot.java.Generic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class WildCard_Genneric {
 	public static void main(String[] args) {
@@ -124,10 +128,30 @@ class TestLowerWildCard {
 	public static void main(String[] args) {
 		TestLowerWildCard test = new TestLowerWildCard();
 		List<Person> list = new ArrayList<>();
+		Employee e = test. new Employee();
+		list.add(e);
 		test.insertElements(list);
+		
+		
 	}
 }
 
+
+class TestWildCard{
+	public List<? extends Collection<Integer>> ls = new ArrayList();
+	
+	public static void main(String[] args) {
+		List <Integer> ls1 = new ArrayList<Integer>();
+		Set <Integer> st = new HashSet<Integer>();
+		ls1.add(1);
+		st.add(2);
+		TestWildCard tCard = new TestWildCard();
+		Iterator<Integer> iterator = ls1.iterator();
+
+//		tCard.ls.addAll(ls1);
+//		tCard.ls.addAll(st);
+	}
+}
 
 
 

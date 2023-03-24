@@ -149,7 +149,7 @@ class QuickSort2 {
     // đặt các phần tử nhỏ hơn chốt ở trước
     // và lớn hơn ở sau nó
     int partition(int arr[], int low, int high) {
-        int pivot = arr[high];
+        int pivot = arr[high]; // Chọn chốt là cuối arr
         int i = (low - 1); // index of smaller element
         for (int j = low; j < high; j++) {
 

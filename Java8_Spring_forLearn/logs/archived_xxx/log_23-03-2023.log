@@ -1,0 +1,30 @@
+23-03-2023 17:27:22.691 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 11.0.12 on DESKTOP-39HRTMI with PID 19808 (C:\Users\DELL\eclipse-workspace\Java8_Spring_forLearn\target\classes started by DELL in C:\Users\DELL\eclipse-workspace\Java8_Spring_forLearn)
+23-03-2023 17:27:22.699 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+23-03-2023 17:27:22.704 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+23-03-2023 17:27:29.434 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 7.869 seconds (JVM running for 9.618)
+23-03-2023 17:27:29.444 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 17:27:29.456 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+23-03-2023 17:27:29.456 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 17:27:29.468 [restartedMain] ERROR com.java8.springboot.spring.config.log - name: DungNguyen
+age: 23-24
+
+23-03-2023 22:35:51.772 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStarting - Starting Java8SpringForLearnApplicationTests using Java 11.0.12 on DESKTOP-39HRTMI with PID 19624 (started by DELL in C:\Users\DELL\eclipse-workspace\Java8_Spring_forLearn)
+23-03-2023 22:35:51.780 [main] DEBUG c.j.s.Java8SpringForLearnApplicationTests.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+23-03-2023 22:35:51.781 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStartupProfileInfo - The following profiles are active: dev
+23-03-2023 22:35:59.546 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStarted - Started Java8SpringForLearnApplicationTests in 9.319 seconds (JVM running for 12.304)
+23-03-2023 22:35:59.554 [main] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 22:35:59.576 [main] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+23-03-2023 22:35:59.577 [main] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 22:35:59.604 [main] ERROR com.java8.springboot.spring.config.log - name: DungNguyen
+age: 23-24
+
+23-03-2023 22:39:54.066 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStarting - Starting Java8SpringForLearnApplicationTests using Java 11.0.12 on DESKTOP-39HRTMI with PID 18076 (started by DELL in C:\Users\DELL\eclipse-workspace\Java8_Spring_forLearn)
+23-03-2023 22:39:54.140 [main] DEBUG c.j.s.Java8SpringForLearnApplicationTests.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+23-03-2023 22:39:54.142 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStartupProfileInfo - The following profiles are active: dev
+23-03-2023 22:40:10.121 [main] INFO  c.j.s.Java8SpringForLearnApplicationTests.logStarted - Started Java8SpringForLearnApplicationTests in 20.752 seconds (JVM running for 24.981)
+23-03-2023 22:40:10.281 [main] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 22:40:10.360 [main] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+23-03-2023 22:40:10.403 [main] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+23-03-2023 22:40:10.455 [main] ERROR com.java8.springboot.spring.config.log - name: DungNguyen
+age: 23-24
+

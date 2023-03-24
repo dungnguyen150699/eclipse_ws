@@ -2,10 +2,12 @@ package dungnt_ptit.com.securitystandard.service.impl;
 
 import dungnt_ptit.com.securitystandard.pojo.entity.User;
 import dungnt_ptit.com.securitystandard.repository.UserRepository;
+import dungnt_ptit.com.securitystandard.service.DI_Interface;
 import dungnt_ptit.com.securitystandard.service.UserService;
 import dungnt_ptit.com.securitystandard.ulti.common.error.NotFoundException;
 import dungnt_ptit.com.securitystandard.ulti.common.i18n.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -21,6 +23,9 @@ import java.util.Set;
 public class UserServiceImpl implements UserService, UserDetailsService {
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    @Qualifier(value = "DI_InterfaceImpl1")
+    private DI_Interface di_interface;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
