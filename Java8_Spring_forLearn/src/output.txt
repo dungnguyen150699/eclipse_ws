@@ -1,0 +1,4 @@
+The average time of FileInputStream: 0.2ms
+The average time of BufferedInputStream: 0.05ms
+The average time of FileReader: 0.15ms
+The average time of BufferedReader: 0.13ms

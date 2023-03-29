@@ -1,0 +1,10 @@
+28-03-2023 13:32:47.171 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 244 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+28-03-2023 13:32:47.177 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+28-03-2023 13:32:47.178 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+28-03-2023 13:32:50.711 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 4.184 seconds (JVM running for 4.824)
+28-03-2023 13:32:50.716 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+28-03-2023 13:32:50.717 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+28-03-2023 13:32:50.717 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+28-03-2023 13:32:50.747 [restartedMain] ERROR com.java8.springboot.spring.config.log - name: DungNguyen
+age: 23-24
+

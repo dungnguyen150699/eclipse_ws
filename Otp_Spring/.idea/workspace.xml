@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4504c5c-d807-4dee-8a34-0081c62e1443" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/SendOtp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/OtpWithSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/controller/OTPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/helper/EmailTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/service/OTPService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/java/com/codeusingjava/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/otppage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otp_ByEmail_Spring/src/test/java/com/pixeltrice/springbootOTPenabledapp/SpringBootOtpEnabledAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-twilio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java8_Spring_forLearn/src/main/java/com/java8/springboot/spring/config/GetFileProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Spring_forLearn/src/main/java/com/java8/springboot/spring/config/GetFileProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-micro-service/receipt/src/main/java/dungnt/ptit/receipt/feignclient/auth/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../my-micro-service/receipt/src/main/java/dungnt/ptit/receipt/feignclient/auth/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-micro-service/receipt/src/main/java/dungnt/ptit/receipt/feignclient/configuration/ClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../my-micro-service/receipt/src/main/java/dungnt/ptit/receipt/feignclient/configuration/ClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-oauth2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-oauth2/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NgIfTargaDou62eWPCQXMuvnWT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4504c5c-d807-4dee-8a34-0081c62e1443" name="Changes" comment="" />
+      <created>1680079404624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680079404624</updated>
+      <workItem from="1680079406075" duration="2147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

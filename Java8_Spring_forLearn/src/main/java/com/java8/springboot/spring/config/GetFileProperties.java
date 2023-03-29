@@ -18,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 public class GetFileProperties implements CommandLineRunner{
 	private final Environment environment;
 	
+	String javaHomePath = System.getenv("JAVA_HOME");
 	public GetFileProperties(final Environment environment) {
 		this.environment = environment;
 	}
@@ -28,6 +29,7 @@ public class GetFileProperties implements CommandLineRunner{
 				"name: " + environment.getProperty("name") + "\n" +
 				"age: " + environment.getProperty("age") + "\n"
 				);
+		System.out.println(javaHomePath);
 	}
 	
 	

@@ -42,7 +42,7 @@ public class ClientConfiguration{
             headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
             headers.setContentType(MediaType.APPLICATION_JSON);
             HttpEntity entity = new HttpEntity
-                    (new LoginRequest(this.appProperties.getAuth().getEmail(),this.appProperties.getAuth().getPassword()),
+                    (new LoginRequest(appProperties.getAuth().getEmail(),appProperties.getAuth().getPassword()),
                             headers);
             ResponseEntity<Object> response = restTemplate.exchange(appProperties.getAuth().getUrlAuth(),
                     HttpMethod.POST,

@@ -1,0 +1,9 @@
+2023-03-28 13:32:47,171 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 244 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+2023-03-28 13:32:47,178 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2023-03-28 13:32:50,711 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Java8SpringForLearnApplication in 4.184 seconds (JVM running for 4.824)
+2023-03-28 13:32:50,716 ERROR com.java8.springboot.spring.GETCommandLineRunner [restartedMain] ApplicationStartupRunnerOne run method Started !!
+2023-03-28 13:32:50,717 INFO com.java8.springboot.spring.ApplicationStartupRunnerTwo [restartedMain] ApplicationStartupRunnerTwo run method Started !!
+2023-03-28 13:32:50,717 INFO com.java8.springboot.spring.ApplicationStartupRunnerOne [restartedMain] ApplicationStartupRunnerOne run method Started !!
+2023-03-28 13:32:50,747 ERROR com.sun.istack.logging.Logger [restartedMain] name: DungNguyen
+age: 23-24
+
