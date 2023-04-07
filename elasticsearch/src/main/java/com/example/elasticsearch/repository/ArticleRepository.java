@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface ArticleRepository extends ElasticsearchRepository<Article, Long> {
+public interface ArticleRepository extends ElasticsearchRepository<Article, String> {
 
     Page<Article> findByAuthorsName(String name, Pageable pageable);
 

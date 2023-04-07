@@ -14,21 +14,21 @@
 	<name>elasticsearch</name>
 	<description>elasticsearch</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency> <!-- this dependency include spring-data-elasticsearch  -->
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.data</groupId>-->
-<!--			<artifactId>spring-data-elasticsearch</artifactId>-->
+<!--		<dependency> &lt;!&ndash; this dependency include spring-data-elasticsearch  &ndash;&gt;-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
 <!--		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-elasticsearch</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -44,15 +44,15 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-				<version>1.5.2.RELEASE</version>
-			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>org.springframeworark.boot</groupId>-->
+<!--				<artifactId>spring-boot-stter-data-elasticsearch</artifactId>-->
+<!--				<version>1.5.2.RELEASE</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-elasticsearch</artifactId>
-				<version>4.0.0.RELEASE</version>
+				<version>4.1.8</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -70,6 +70,17 @@
 						</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.4.0.905</version>
+			</plugin>
+			<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.1</version>
 			</plugin>
 		</plugins>
 	</build>

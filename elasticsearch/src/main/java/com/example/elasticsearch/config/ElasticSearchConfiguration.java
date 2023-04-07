@@ -8,9 +8,8 @@
 //import org.elasticsearch.client.RestClient;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
-//import org.springframework.data.elasticsearch.client.elc.ElasticsearchTemplate;
 //
-//// version 3.0.5 =))
+//// version >= 4.45 =))
 //@Configuration
 //public class ElasticSearchConfiguration {
 //    @Bean
