@@ -8,6 +8,7 @@ import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.util.Date;
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -15,7 +16,7 @@ import java.util.Date;
 public class Product {
 
     @Id
-    private String id;
+    private String id = UUID.randomUUID().toString();
 
     @Field(type = FieldType.Text, name = "name")
     private String name;
@@ -25,7 +26,4 @@ public class Product {
 
     @Field(type = FieldType.Double, name = "price")
     private double price;
-
-    
-   // Getter and Setter
 }

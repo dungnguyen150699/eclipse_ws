@@ -28,7 +28,7 @@ public class ElasticsearchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//		int idIncrement = 0;
+		int idIncrement = 0;
 		List<Article> datas = null;
 		try{
 
