@@ -17,6 +17,13 @@ public class Calculator implements Callable<Integer> {
     System.out.println("result: " + a + " + " + b + " = " + sum);
     return sum;
   }
+  
+  public static int add(int a, int b) {
+	    int sum = a + b;
+	    System.out.println("result: " + a + " + " + b + " = " + sum);
+	    return sum;
+  }
+  
   @Override
   public Integer call() throws Exception {
     return this.sum();

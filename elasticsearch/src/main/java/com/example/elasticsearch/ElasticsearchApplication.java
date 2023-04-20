@@ -31,7 +31,6 @@ public class ElasticsearchApplication implements CommandLineRunner {
 		int idIncrement = 0;
 		List<Article> datas = null;
 		try{
-
 			Article articleCreate = new Article()
 	//				.setId(++idIncrement)
 					.setAuthorsName("spring auto set ID if id field is String ")

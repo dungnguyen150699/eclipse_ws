@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("receipt")
+@RequestMapping("")
 public class ReceiptController {
     @Autowired
     private BookModuFeignClient bookModuFeignClient;

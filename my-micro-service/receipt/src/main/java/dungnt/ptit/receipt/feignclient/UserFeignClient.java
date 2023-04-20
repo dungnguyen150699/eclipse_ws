@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Headers({"Accept: application/json; charset=utf-8",
         "Content-Type: application/json" })
-@FeignClient(value = "book-modul-feign-client", url = "http://localhost:8083/user/")
+@FeignClient(value = "user-modul-feign-client", url = "http://localhost:8083/user/")
 public interface UserFeignClient {
 
 //    @Headers({"Authorization:" + })

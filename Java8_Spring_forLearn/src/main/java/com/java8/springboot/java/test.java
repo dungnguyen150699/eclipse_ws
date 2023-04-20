@@ -3,6 +3,7 @@ package com.java8.springboot.java;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class test {
 	public static void main(String[] args) {
@@ -34,5 +35,21 @@ class test2{
 		System.out.println("xx".startsWith(""));
 		System.out.println(d1.getTime() - d2.getTime() > 7*60*60*24*1000);
 		System.out.println(calendar1.get(Calendar.MONTH));
+	}
+}
+
+
+class UCLN{
+	public int getUCLN2Number(int a, int b) {
+		if(a==0) return b;
+		else return getUCLN2Number(b%a,a);
+	}
+	
+	public static void main(String[] args) {
+		UCLN object = new UCLN();
+		int ucln = object.getUCLN2Number(9, 6);
+		int bcnn = 9*6/ucln;
+		System.out.println("Result UCLN: " + ucln + "\n" + 
+		"Result BCNN: " + bcnn);
 	}
 }
