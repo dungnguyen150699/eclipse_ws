@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-server
+  template:
+    metadata:
+      labels:
+        app: service-server
+    spec:
+      containers:
+      - name: service-server
+        image: service:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8083
+        env:
+        - name: AUTH_SERVER_ADDRESS
+          valueFrom:
+            configMapKeyRef:
+              name: service-configmap
+              key: AUTH_SERVER_ADDRESS
+        - name: AUTH_SERVER_PORT
+          valueFrom:
+            secretKeyRef:
+              name: service-secret
+              key: AUTH_SERVER_PORT

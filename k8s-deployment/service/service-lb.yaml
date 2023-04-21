@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2023-03-09T08:46:03Z"
+  name: auth-service-lb
+  namespace: default
+  resourceVersion: "16335"
+  uid: 9983f4fa-36d3-4731-aa40-59c11ce1158a
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.107.27.105
+  clusterIPs:
+  - 10.107.27.105
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 31479
+    port: 8081
+    protocol: TCP
+    targetPort: 8081
+  selector:
+    app: auth-server
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}
