@@ -1,0 +1,70 @@
+19-04-2023 08:50:54.923 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 10052 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:50:54.937 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:50:54.938 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:50:59.658 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 5.703 seconds (JVM running for 6.44)
+19-04-2023 08:50:59.668 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:50:59.669 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:50:59.669 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:50:59.683 [restartedMain] ERROR com.java8.springboot.spring.config.log - name: null
+age: null
+
+19-04-2023 08:52:50.417 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 10052 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:52:50.419 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:52:50.419 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:52:51.095 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 0.737 seconds (JVM running for 117.877)
+19-04-2023 08:52:51.097 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:52:51.098 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:52:51.099 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:52:51.101 [restartedMain] ERROR com.java8.springboot.spring.config.log - name: null
+age: null
+
+19-04-2023 08:53:42.428 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 16296 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:53:42.434 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:53:42.437 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:53:47.431 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 5.82 seconds (JVM running for 6.657)
+19-04-2023 08:53:47.437 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:53:47.438 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:53:47.439 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:53:47.447 [restartedMain] ERROR com.java8.springboot.spring.config.log - name: null
+age: null
+
+19-04-2023 08:54:46.093 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 16296 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:54:46.094 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:54:46.095 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:54:46.805 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 0.767 seconds (JVM running for 66.031)
+19-04-2023 08:54:46.808 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:54:46.809 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:54:46.809 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:54:46.812 [restartedMain] ERROR com.java8.springboot.spring.config.log - GetFileProperties: 
+name: null
+age: null
+
+19-04-2023 08:54:56.943 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 7264 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:54:56.947 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:54:56.948 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:55:00.805 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 4.5 seconds (JVM running for 5.094)
+19-04-2023 08:55:00.811 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:55:00.813 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:55:00.814 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:55:00.829 [restartedMain] ERROR com.java8.springboot.spring.config.log - GetFileProperties: 
+name: null
+age: null
+
+19-04-2023 08:56:29.866 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 7304 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:56:29.871 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:56:29.871 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:56:33.719 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 4.634 seconds (JVM running for 5.361)
+19-04-2023 08:56:33.723 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:56:33.724 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:56:33.725 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:57:38.726 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarting - Starting Java8SpringForLearnApplication using Java 17.0.6 on Admin with PID 15840 (C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn\target\classes started by Admin in C:\Users\Admin\Desktop\esclipse_ws\eclipse_ws\Java8_Spring_forLearn)
+19-04-2023 08:57:38.730 [restartedMain] DEBUG c.j.s.Java8SpringForLearnApplication.logStarting - Running with Spring Boot v2.4.0, Spring v5.3.1
+19-04-2023 08:57:38.731 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStartupProfileInfo - The following profiles are active: dev
+19-04-2023 08:57:42.125 [restartedMain] INFO  c.j.s.Java8SpringForLearnApplication.logStarted - Started Java8SpringForLearnApplication in 3.999 seconds (JVM running for 4.532)
+19-04-2023 08:57:42.129 [restartedMain] ERROR c.j.s.spring.GETCommandLineRunner.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:57:42.130 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerTwo.run - ApplicationStartupRunnerTwo run method Started !!
+19-04-2023 08:57:42.131 [restartedMain] INFO  c.j.s.s.ApplicationStartupRunnerOne.run - ApplicationStartupRunnerOne run method Started !!
+19-04-2023 08:57:42.142 [restartedMain] ERROR com.java8.springboot.spring.config.log - GetFileProperties: 
+name: DungNguyen
+age: 23-24
+

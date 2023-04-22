@@ -1,35 +1,26 @@
 package com.example.elasticsearch;
 
-import com.example.elasticsearch.pojo.Product;
-import com.example.elasticsearch.repository.ProductRepository;
-import com.google.gson.Gson;
-import org.elasticsearch.action.bulk.BulkRequest;
-import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.client.RequestOptions;
-import org.elasticsearch.client.RestHighLevelClient;
-import org.elasticsearch.common.xcontent.XContentType;
+import com.example.elasticsearch.pojo.entity.Article;
+import com.example.elasticsearch.repository.ArticleRepository;
+import com.example.elasticsearch.repository.repositoryCustomDSL_oldVersion.ArticleCustomDSL;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.FilterType;
-import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.data.domain.Pageable;
 
-import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
+@Slf4j
 @SpringBootApplication
-//@ComponentScan(excludeFilters =
-//	@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = ElasticsearchOperations.class)
-//)
 public class ElasticsearchApplication implements CommandLineRunner {
-
+//	@Autowired
+//	private ArticleRepository articleRepository;
 	@Autowired
-	private ProductRepository productRepository;
-	@Autowired
-	private RestHighLevelClient restHighLevelClient;
-	@Autowired
-	private Gson gson;
+	private ArticleCustomDSL articleCustomDSL;
 
 	public static void main(String[] args) {
 		SpringApplication.run(ElasticsearchApplication.class, args);
@@ -37,17 +28,30 @@ public class ElasticsearchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Product product = new Product()
-				.setName("Name Product1")
-				.setDescription("Description1")
-				.setPrice(150199d)
-				.setDate(new Date());
-//		IndexRequest indexRequest = new IndexRequest("products");
-//		BulkRequest bulkRequest = new BulkRequest();
+		int idIncrement = 0;
+		List<Article> datas = null;
+		try{
+			Article articleCreate = new Article()
+	//				.setId(++idIncrement)
+					.setAuthorsName("spring auto set ID if id field is String ")
+					.setContent("No Content")
+					.setTitle("My First Article");
 
-//		indexRequest.source(gson.toJson(product), XContentType.JSON);
-//		bulkRequest.add(indexRequest);
-//		restHighLevelClient.bulk(bulkRequest,RequestOptions.DEFAULT);
-		productRepository.save(product);
+	//		articleRepository.save(articleCreate);
+			articleCustomDSL.createBulkIndex(articleCreate);
+			// Update entity
+			articleCreate = new Article()
+	//				.setId(++idIncrement)
+					.setAuthorsName("NTD")
+					.setContent("No Content")
+					.setTitle("My Second Article");
+	//		articleRepository.save(articleCreate);
+			articleCustomDSL.createBulkIndex(articleCreate);
+			datas = StreamSupport.stream(articleCustomDSL.findAll(Pageable.unpaged()).spliterator(),true).collect(Collectors.toList());
+			System.out.println(datas);
+		}catch (Exception exception){
+			log.error(exception.getCause().toString(),exception);
+
+		}
 	}
 }

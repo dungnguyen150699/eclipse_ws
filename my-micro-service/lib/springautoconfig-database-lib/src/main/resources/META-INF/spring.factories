@@ -1,0 +1,3 @@
+# Auto config (\ is oke still diff line)
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  dungnt.ptit.springautoconfiglib.ConfigDataBase

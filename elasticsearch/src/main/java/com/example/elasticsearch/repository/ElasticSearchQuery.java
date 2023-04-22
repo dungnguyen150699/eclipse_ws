@@ -3,7 +3,7 @@
 //import co.elastic.clients.elasticsearch.ElasticsearchClient;
 //import co.elastic.clients.elasticsearch.core.*;
 //import co.elastic.clients.elasticsearch.core.search.Hit;
-//import com.example.elasticsearch.pojo.Product;
+//import com.example.elasticsearch.pojo.entity.Product;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Repository;
 //
@@ -19,7 +19,6 @@
 //    private ElasticsearchClient elasticsearchClient;
 //
 //    private final String indexName = "products";
-//
 //
 //    public String createOrUpdateDocument(Product product) throws IOException {
 //

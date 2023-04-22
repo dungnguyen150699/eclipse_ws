@@ -9,9 +9,9 @@
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
 //
+//// version >= 4.45 =))
 //@Configuration
-//public class ElasticSearchConfiguration
-//{
+//public class ElasticSearchConfiguration {
 //    @Bean
 //    public RestClient getRestClient() {
 //        RestClient restClient = RestClient.builder(
@@ -20,7 +20,7 @@
 //    }
 //
 //    @Bean
-//    public  ElasticsearchTransport getElasticsearchTransport() {
+//    public ElasticsearchTransport getElasticsearchTransport() {
 //        return new RestClientTransport(
 //                getRestClient(), new JacksonJsonpMapper());
 //    }

@@ -1,6 +1,6 @@
 //package com.example.elasticsearch.controller;
 //
-//import com.example.elasticsearch.pojo.Product;
+//import com.example.elasticsearch.pojo.entity.Product;
 //import com.example.elasticsearch.repository.ElasticSearchQuery;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Controller;

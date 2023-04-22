@@ -1,5 +1,6 @@
 package com.java8.springboot.java.java8;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,6 +13,9 @@ import java.util.Set;
 public class equal_hashcode{
 	private Integer id;
 	private String description;
+	private Object object;
+//	private Iterator // I
+//	private Comparator<T> // FI
 	
 	public equal_hashcode(int id , String dc) {
 		this.id = id;
@@ -32,6 +36,7 @@ public class equal_hashcode{
     public String toString() {
     	return "id:" + this.id + "___ description:" + this.description;
     }
+    
     @Override
     public int hashCode() {
         return 31 + id.hashCode();

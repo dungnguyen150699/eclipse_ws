@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.0.RELEASE</version>
+		<version>3.0.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>elasticsearch</artifactId>
+	<artifactId>spring-elasticsearch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>elasticsearch</name>
 	<description>elasticsearch</description>
@@ -18,16 +18,10 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-<!--		<dependency>-->
+<!--		<dependency> &lt;!&ndash; this dependency include spring-data-elasticsearch  &ndash;&gt;-->
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
 <!--		</dependency>-->
@@ -35,7 +29,6 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-elasticsearch</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -47,37 +40,20 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
 		<dependencies>
+<!--			<dependency>-->
+<!--				<groupId>org.springframeworark.boot</groupId>-->
+<!--				<artifactId>spring-boot-stter-data-elasticsearch</artifactId>-->
+<!--				<version>1.5.2.RELEASE</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-elasticsearch</artifactId>
-				<version>4.1.8</version>
+				<version>4.2.0</version>
 			</dependency>
-<!--			<dependency>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
-<!--				<version>3.0.5</version>-->
-<!--			</dependency>-->
-			<!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
-			<dependency>
-				<groupId>org.elasticsearch.client</groupId>
-				<artifactId>elasticsearch-rest-high-level-client</artifactId>
-				<version>7.6.2</version>
-			</dependency>
-
 		</dependencies>
 	</dependencyManagement>
 
@@ -94,6 +70,17 @@
 						</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.4.0.905</version>
+			</plugin>
+			<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.1</version>
 			</plugin>
 		</plugins>
 	</build>

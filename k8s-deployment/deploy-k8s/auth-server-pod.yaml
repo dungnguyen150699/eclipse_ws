@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: auth-server-pod
+  labels:
+    app: auth-server
+spec:
+  containers:
+  - name: auth-server
+    image: auth-server:latest
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 8081

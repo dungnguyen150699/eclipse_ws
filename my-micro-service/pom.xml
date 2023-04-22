@@ -5,7 +5,9 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>2.3.12.RELEASE</version>
+<!--        <version>2.7.4</version>-->
+<!--        <version>2.7.7</version>-->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dungnt.ptit</groupId>
@@ -24,36 +26,16 @@
     </modules>
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-<!--        <spring-cloud.version>2021.0.2</spring-cloud.version>-->
+        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
+<!--        <spring-cloud.version>2021.0.1</spring-cloud.version>-->
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 <!--    Cái này giúp các project con kế thừa ko cần khai báo version mà có thể sử dụng luôn
         giống spring starter parent(Spring web, .. ko có version TH muốn thay version thì vứt vào properties)-->
@@ -84,7 +66,6 @@
                 <version>5.0.0-M5</version>
                 <scope>test</scope>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 
