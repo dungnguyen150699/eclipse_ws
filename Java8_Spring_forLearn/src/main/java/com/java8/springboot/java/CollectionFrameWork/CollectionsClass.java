@@ -201,9 +201,12 @@ class CollectionsExample3 {
         // Using comparator
         System.out.println("Maximum value: " + Collections.max(students, ageComparator));
         System.out.println("Minimum value: " + Collections.min(students, ageComparator));
+        Collections.sort(students, ageComparator);
         System.out.println("Index of student1 : " + Collections.binarySearch(students, student1, ageComparator));
         System.out.println("Index of student6 : " + Collections.binarySearch(students, student6, ageComparator));
         System.out.println("---");
+        
+        print(students);
  
         Collections.sort(students, ageComparator);
         System.out.println("Sorted ASC: ");
