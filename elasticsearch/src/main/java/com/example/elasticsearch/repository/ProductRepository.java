@@ -1,6 +1,6 @@
 package com.example.elasticsearch.repository;
 
-import com.example.elasticsearch.pojo.Product;
+import com.example.elasticsearch.pojo.entity.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

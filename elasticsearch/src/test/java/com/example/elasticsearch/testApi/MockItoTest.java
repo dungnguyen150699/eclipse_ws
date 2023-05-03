@@ -35,8 +35,8 @@ public class MockItoTest {
     @Test
     public void createUser_WhenEmailExisted_ReturnFailed() throws IOException {
         // Define return value for method createUser()
-        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException())   ;
-        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException())
+        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException());  ;
+        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException());
         // Use mock in test
 //        Assert.assertEquals("FAILED", userService.createUser("existed@gpcoder.com"));
     }

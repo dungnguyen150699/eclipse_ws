@@ -18,10 +18,10 @@ public class BookMeetingRoomApplication extends SpringBootServletInitializer imp
         SpringApplication.run(BookMeetingRoomApplication.class, args);
     }
     
-    @Autowired
-    private BCryptPasswordEncoder bp;
-    @Autowired
-    private UserJpa ur;
+//    @Autowired
+//    private BCryptPasswordEncoder bp;
+//    @Autowired
+//    private UserJpa ur;
 
 	@Override
 	public void run(String... args) throws Exception {

@@ -45,7 +45,7 @@ import com.ttc.bookmeetingroom.service.impl.UserServiceImpl;
 @RunWith(SpringRunner.class)
 @WebMvcTest(BookingController.class)
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-@ActiveProfiles("test")
+@ActiveProfiles("test1")
 public class BookingControllerTest {
 	public static final MediaType APPLICATION_JSON_UTF8 = new MediaType(MediaType.APPLICATION_JSON.getType(),
             MediaType.APPLICATION_JSON.getSubtype(), StandardCharsets.UTF_8);
