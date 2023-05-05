@@ -6,8 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.ttc.bookmeetingroom.model.User;
 
-@Repository
-@Transactional
-public interface UserJpa extends JpaRepository<User, Integer>  {
-
-}
+//@Repository
+//@Transactional
+//public interface UserJpa extends JpaRepository<User, Integer>  {
+//
+//}

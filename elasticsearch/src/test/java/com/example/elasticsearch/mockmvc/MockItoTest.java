@@ -1,8 +1,7 @@
-package com.example.elasticsearch.testApi;
+package com.example.elasticsearch.mockmvc;
 
 import com.example.elasticsearch.repository.ArticleRepository;
 import com.example.elasticsearch.repository.ElasticSearchHighClientQuery;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -35,8 +34,8 @@ public class MockItoTest {
     @Test
     public void createUser_WhenEmailExisted_ReturnFailed() throws IOException {
         // Define return value for method createUser()
-        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException())   ;
-        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException())
+        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException());
+        Mockito.lenient().when(elasticSearchHighClientQuery.searchBucketThenSourceMapping()).thenThrow(new IOException());
         // Use mock in test
 //        Assert.assertEquals("FAILED", userService.createUser("existed@gpcoder.com"));
     }

@@ -24,3 +24,7 @@ Our corporation= Tập đoán của chúng tôi
 worn=rác nát
 be worn = được mặc
 Either=hoặc
+inception=Khởi đầu
+inherently= vốn có
+magnificently=Tráng lệ
+magnify=Phóng đại

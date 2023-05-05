@@ -55,7 +55,7 @@ public class BookingControllerTest {
         @Bean
         BookingService bookingService() {
             return new BookingServiceImpl();
-        }    
+        }
         @Bean
         UserService userService() {
             return new UserServiceImpl();

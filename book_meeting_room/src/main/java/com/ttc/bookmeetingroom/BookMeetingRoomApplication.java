@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.ttc.bookmeetingroom.model.User;
-import com.ttc.bookmeetingroom.repository.UserJpa;
+//import com.ttc.bookmeetingroom.model.User;
+//import com.ttc.bookmeetingroom.repository.UserJpa;
 
 
 @SpringBootApplication
@@ -17,11 +17,11 @@ public class BookMeetingRoomApplication extends SpringBootServletInitializer imp
     public static void main(String[] args) {
         SpringApplication.run(BookMeetingRoomApplication.class, args);
     }
-    
-    @Autowired
-    private BCryptPasswordEncoder bp;
-    @Autowired
-    private UserJpa ur;
+
+//    @Autowired
+//    private BCryptPasswordEncoder bp;
+//    @Autowired
+//    private UserJpa ur;
 
 	@Override
 	public void run(String... args) throws Exception {
