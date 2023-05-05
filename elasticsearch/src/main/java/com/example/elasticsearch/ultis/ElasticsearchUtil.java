@@ -64,6 +64,10 @@ public class ElasticsearchUtil {
                 "      ]\n" +
                 "    }}", queryType, col, keyword, gte, lte);
 
+<<<<<<< HEAD
+=======
+         System.out.println("Query" + query);
+>>>>>>> 319df242ec7cf37fd2afd6607cad485ed4292185
 //      create wrapper query accept base64 encode query
         WrapperQueryBuilder qb = QueryBuilders.wrapperQuery(query);
 
@@ -90,6 +94,10 @@ public class ElasticsearchUtil {
 ////            list.add(cdr);
 //        }
 ////        return list;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 319df242ec7cf37fd2afd6607cad485ed4292185
         return searchResponse;
     }
 
@@ -112,6 +120,10 @@ public class ElasticsearchUtil {
             hosts[j] = hosts[j - i];
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 319df242ec7cf37fd2afd6607cad485ed4292185
         i = 0;
         RestClientBuilder restClientBuilder = RestClient.builder(
                 hosts[i++],
