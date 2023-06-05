@@ -3,6 +3,7 @@ package com.java8.springboot.java.java8;
 import java.io.IOException;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
+import java.util.Iterator;
 
 public class Path {
 	public static void main(String[] args) {
@@ -12,6 +13,5 @@ public class Path {
 		System.out.println(path.resolve("/xxx") + "---" + path.resolve("xxxx"));
 		
 		// Dùng format String để chèn đường dẫn 
-
 	}
 }

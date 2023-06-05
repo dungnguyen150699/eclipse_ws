@@ -13,8 +13,7 @@ import org.testcontainers.utility.DockerImageName;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(
     classes = ElasticConfig.class,
-    webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
-    properties = { "spring.datasource.url=jdbc:tc:postgresql:11-alpine:///databasename" }
+    webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
 )
 @ActiveProfiles("test")
 public abstract class AbstractIntegrationTest {
