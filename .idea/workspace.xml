@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4289ed87-82cb-45f5-9cb5-ae5e58cf6cfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/.idea/BTL_LTM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/spring-security-oauth-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScheduleJob/src/main/java/com/example/quartz/CustomScheduledJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScheduleJob/src/main/java/com/example/quartz/CustomScheduledJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker của cty này/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker của cty này/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker của cty này/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/DetailMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/DetailMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/ServerReceiveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/ServerReceiveData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/ServerSendData.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/ServerSendData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/UserChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/UserChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/checkinvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/checkinvalid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/sv_pairx.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Model/sv_pairx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/MatchDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/MatchDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/Control/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/View/ServerControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/View/ServerControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/View/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/Server/View/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/Play_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/Play_Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/SelectPlayer_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/SelectPlayer_Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/pairx.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/Control/pairx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HistoryFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/HomeFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/LoginFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/PlayFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RankFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/RegisterFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/User/View/SelectPlayerFRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/lib/nblibraries.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/lib/nblibraries.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/Server/Control/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/Server/Control/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/User/Control/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/User/Control/UserControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/quartz/schedule/ScheduleSearchProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/quartz/schedule/ScheduleSearchProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafexamples-springmail" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleafexamples-springmail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafexamples-springmail/src/main/java/thymeleafexamples/springmail/web/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleafexamples-springmail/src/main/java/thymeleafexamples/springmail/web/SpringWebConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2VHLPqf3fHNNxbNuuiOqLtH8e7D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4289ed87-82cb-45f5-9cb5-ae5e58cf6cfe" name="Changes" comment="" />
+      <created>1694488038557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694488038557</updated>
+    </task>
+    <servers />
+  </component>
+</project>

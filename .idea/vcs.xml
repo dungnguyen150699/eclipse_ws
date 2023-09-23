@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SecurityStandard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/game_covay-main/BTL_LTM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-oauth2/my-spring-social" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thymeleafexamples-springmail" vcs="Git" />
+  </component>
+</project>
