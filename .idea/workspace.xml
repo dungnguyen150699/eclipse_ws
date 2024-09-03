@@ -90,10 +90,7 @@
       <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/spring-security-oauth-example.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScheduleJob/src/main/java/com/example/quartz/CustomScheduledJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScheduleJob/src/main/java/com/example/quartz/CustomScheduledJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker của cty này/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker của cty này/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker của cty này/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker của cty này/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/.netbeans_automatic_build" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/build/classes/.netbeans_update_resources" beforeDir="false" />
@@ -156,8 +153,18 @@
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/nbproject/project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/Server/Control/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/Server/Control/DAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/User/Control/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/game_covay-main/BTL_LTM/src/User/Control/UserControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-messaging-stomp-websocket/complete/src/main/java/com/example/messagingstompwebsocket/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gs-messaging-stomp-websocket/complete/src/main/java/com/example/messagingstompwebsocket/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-messaging-stomp-websocket/complete/src/main/java/com/example/messagingstompwebsocket/MessagingStompWebsocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gs-messaging-stomp-websocket/complete/src/main/java/com/example/messagingstompwebsocket/MessagingStompWebsocketApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/Dockerfile.bak" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/Dockerfile.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/controller/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/controller/api/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/quartz/schedule/ScheduleSearchProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/quartz/schedule/ScheduleSearchProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/java/dungnt/ptit/myspringsocial/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-oauth2/my-spring-social/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/oauth2_Tech Primers_copy/spring-security-oauth-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thymeleafexamples-springmail" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleafexamples-springmail" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thymeleafexamples-springmail/src/main/java/thymeleafexamples/springmail/web/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleafexamples-springmail/src/main/java/thymeleafexamples/springmail/web/SpringWebConfig.java" afterDir="false" />
@@ -173,21 +180,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2VHLPqf3fHNNxbNuuiOqLtH8e7D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
